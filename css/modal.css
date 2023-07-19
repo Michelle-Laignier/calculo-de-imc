@@ -1,0 +1,37 @@
+.modal-wrapper {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.70);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+}
+
+.modal {
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 28%;
+}
+
+#modal-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 1.6rem;
+    top: 1.6rem;
+    transition: 0.2s;
+}
+
+#modal-button:hover {
+    scale: 1.4;
+}
+
+/*  inset: 0;
+    é um resumo pra:
+    bottom: 0;
+    left:0;
+    right: 0;
+    top: 0;
+*/
